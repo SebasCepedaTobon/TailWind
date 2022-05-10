@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply w-8/12 h-8 rounded-md bg-cyan-400 my-1 hover:bg-cyan-100 hover:text-cyan-600 
+}
+
+.box{
+  @apply flex w-2/4 justify-center border-b-8
+}
+
+.app{
+  background-image: url('./imagenes/fondo.jpg');
+}
